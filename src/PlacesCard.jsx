@@ -18,7 +18,7 @@ export default function PlacesCard(props){
                         className="w-2 mr-2" 
                     />
                     <p className="text-[10.2px] uppercase mr-4 tracking-[0.25rem] text-red-950">{props.location}</p>
-                    <p className="text-[10.2px] text-red-500 underline cursor-pointer"><a href={props.googleMapsUrl}>View on Google Maps</a></p>
+                    <p className="text-[10.2px] text-red-500 underline cursor-pointer"><a href={props.googleMapsUrl} target="_blank">View on Google Maps</a></p>
                 </div>
                 <h1 className="text-2xl font-bold my-1 text-red-950">{props.title}</h1>
                 <p className="text-[10.2px] font-bold my-1 text-red-950">{props.startDate} - {props.endDate}</p>
