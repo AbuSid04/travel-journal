@@ -1,4 +1,5 @@
 import React from "react"
+import img from "./assets/locLogo.svg"
 
 export default function PlacesCard(props){
     console.log(props.title)
@@ -12,7 +13,7 @@ export default function PlacesCard(props){
             <div className="ml-6">
                 <div className="flex items-center ">
                     <img 
-                        src="./src/assets/locLogo.svg" 
+                        src={img} 
                         alt="Location logo" 
                         className="w-2 mr-2" 
                     />
